@@ -27,7 +27,7 @@
 # Given a roman numeral, convert it to an integer.
 #=========================================================#
 
-def romanToInt(self, s: str) -> int:
+def romanToInt(s: str) -> int:
     roman = {
         'I': 1,
         'V': 5,
@@ -57,9 +57,3 @@ print(romanToInt('XXX'))
 print(romanToInt('LVIII'))
 print(romanToInt('CCC'))
 print(romanToInt('MCMXCIV'))
-
-#=========================================================#
-# Result
-# Runtime: 77 ms
-# Memory: 13.9 MB
-#=========================================================#
